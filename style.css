@@ -1,0 +1,107 @@
+body {
+  padding: 30px;
+}
+.wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid #e8e8e8;
+  box-shadow: 0px 20px 15px #d4d4d4;
+  margin: auto 0px;
+  padding: 15px;
+}
+canvas {
+  border: 1px solid #d4d4d4;
+}
+h2 {
+  text-align: center;
+}
+
+@keyframes tAzulOscuro {
+  from {
+    stroke-dasharray: 0 241;
+  }
+  to {
+    stroke-dasharray: 241 0;
+  }
+}
+
+#tAzulOscuro {
+  stroke-dasharray: 0 241;
+  animation: tAzulOscuro 5s linear alternate infinite;
+}
+
+@keyframes trapecio {
+  from {
+    stroke-dasharray: 0 481;
+  }
+  to {
+    stroke-dasharray: 481 0;
+  }
+}
+
+#trapecio {
+  stroke-dasharray: 0 481;
+  animation: trapecio 5s linear alternate infinite;
+}
+
+@keyframes cuadrado {
+  from {
+    stroke-dasharray: 0 380;
+  }
+  to {
+    stroke-dasharray: 380 0;
+  }
+}
+#cuadrado {
+  stroke-dasharray: 0 380;
+  animation: cuadrado 5s linear alternate infinite;
+}
+@keyframes tRojo {
+  from {
+    stroke-dasharray: 0 543;
+  }
+  to {
+    stroke-dasharray: 543 0;
+  }
+}
+#tRojo {
+  stroke-dasharray: 0 543;
+  animation: tRojo 5s linear alternate infinite;
+}
+@keyframes tVerde {
+  from {
+    stroke-dasharray: 0 543;
+  }
+  to {
+    stroke-dasharray: 543 0;
+  }
+}
+#tVerde {
+  stroke-dasharray: 0 543;
+  animation: tVerde 5s linear alternate infinite;
+}
+@keyframes tAzulClaro {
+  from {
+    stroke-dasharray: 0 356;
+  }
+  to {
+    stroke-dasharray: 356 0;
+  }
+}
+#tAzulClaro {
+  stroke-dasharray: 0 356;
+  animation: tAzulClaro 5s linear alternate infinite;
+}
+@keyframes tAmarillo {
+  from {
+    stroke-dasharray: 0 229;
+  }
+  to {
+    stroke-dasharray: 229 0;
+  }
+}
+#tAmarillo {
+  stroke-dasharray: 0 229;
+  animation: tAmarillo 5s linear alternate infinite;
+}

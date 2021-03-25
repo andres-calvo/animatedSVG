@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="wrapper">
+      <div id="patoCanvas">
+        <h2>Pato hecho en Canvas</h2>
+        <canvas id="dibujo" width="500" height="500"></canvas>
+      </div>
+
+      <div id="patoAnimado">
+        <h2>Pato SVG Animado</h2>
+
+        <svg xmlns="http://www.w3.org/2000/svg" width="500" height="500" viewBox="0 0 500 500" fill="none" version="1.1">
+          <path class="path" d="M96 99L48 144L48 43L96 99Z" stroke="#47209c" stroke-width="2" id="tAzulOscuro" />
+          <path class="path" d="M57 41H221.656L270 99H105.344L57 41Z" stroke="#9c0336" stroke-width="2" id="trapecio" />
+          <path class="path" id="cuadrado" stroke="#610580" stroke-width="2" d="m 160,107 h 110 v 80 H 160 Z" />
+          <path class="path" d="M159.184 194.942L331 194.942L159.184 340.194L159.184 194.942Z" stroke="#f40704" stroke-width="2" id="tRojo" />
+          <path class="path" d="M337.816 344.011L166 344.011L337.816 198.76L337.816 344.011Z" stroke="#8ecd08" stroke-width="2" id="tVerde" />
+          <path class="path" d="M347 250L461 344H347V250Z" stroke="#10a4fb" stroke-width="2" id="tAzulClaro" />
+          <path class="path" d="M288 356L217 419H288V356Z" stroke="#f5c00d" stroke-width="2" id="tAmarillo" />
+        </svg>
+      </div>
+    </div>
+
+    <script src="index.js" type="text/javascript"></script>
+  </body>
+</html>
